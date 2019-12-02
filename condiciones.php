@@ -48,6 +48,40 @@ switch($dia){
 
 
 }
+#Ciclo While
+
+echo "<br><br>";
+
+$n = 1;
+
+while($n <= 5){
+
+  echo $n;
+  $n++;
+
+}
+
+#Ciclo Do While
+echo "<br><br>";
+
+$p = 1;
+
+do{
+
+  echo $p;
+  $p++;
+}
+
+while($p <= 5);
+
+#Ciclo For
+echo "<br><br>";
+
+for($i = 1; $i <= 5; $i++){
+
+  echo $i;
+}
+
 
 
 ?>
